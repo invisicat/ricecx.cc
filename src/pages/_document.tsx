@@ -57,10 +57,7 @@ class MyDocument extends Document {
             property="og:description"
             content="16 y/o Full-stack software developer with over 6 years of experience. Interested in building scalable backends and marvelous APIs."
           />
-          <meta
-            property="og:image"
-            content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
-          />
+          <meta property="og:image" content="/images/github_avatar.jpg" />
 
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://ricecx.cc/" />
@@ -74,7 +71,7 @@ class MyDocument extends Document {
           />
           <meta
             property="twitter:image"
-            content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+            content="/images/github_avatar.jpg"
           ></meta>
         </Head>
         <body>
