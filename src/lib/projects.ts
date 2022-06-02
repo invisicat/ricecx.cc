@@ -88,7 +88,6 @@ export const UserFeaturedProjects: FeaturedProject[] = [
       }
     ]
   },
-  ,
   {
     name: 'Kanes Maid Bot',
     description:
