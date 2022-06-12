@@ -12,12 +12,14 @@ const Footer = () => {
 
   return (
     <footer className="flex flex-col text-center p-4 bg-crack-ee dark:bg-xiketic-darker">
-      {spotifyStatus === null ? (
-        <h1>Currently not playing anything</h1>
-      ) : (
-        <SpotifyText spotify={spotifyStatus} />
-      )}
-      <h1> &copy; {new Date().getFullYear()} Made with 💘 by RiceCX</h1>
+      <div>
+        {spotifyStatus === null ? (
+          <h1>Currently not playing anything</h1>
+        ) : (
+          <SpotifyText spotify={spotifyStatus} />
+        )}
+        <h1> &copy; {new Date().getFullYear()} Made with 💘 by RiceCX</h1>
+      </div>
       <a className="self-end" href="https://github.com/RiceCX/ricecx.cc">
         <button className="flex flex-row hover:opacity-80 transition-opacity">
           <p className="align-middle self-center">View the site&apos;s code</p>{' '}

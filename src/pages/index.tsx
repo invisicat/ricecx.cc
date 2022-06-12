@@ -127,6 +127,7 @@ const FrostlessNetworkInfo = () => {
             width={450}
             height={450}
             alt="Frostless Network Logo (by Doggo)"
+            className="shadow-2xl"
           />
         </animated.div>
       </div>

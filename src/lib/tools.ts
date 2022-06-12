@@ -29,6 +29,7 @@ import {
   SiTailwindcss,
   SiTerraform,
   SiTypescript,
+  SiVisualstudiocode,
   SiYarn
 } from 'react-icons/si';
 
@@ -158,6 +159,10 @@ const Tools: Tool = {
     {
       icon: SiYarn,
       name: 'Yarn'
+    },
+    {
+      icon: SiVisualstudiocode,
+      name: 'Visual Studio Code'
     }
   ]
 };
