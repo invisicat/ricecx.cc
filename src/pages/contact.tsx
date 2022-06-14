@@ -30,7 +30,25 @@ const ContactPage = () => {
             <p className="text-xl leading-loose">
               I am willing to work with you on projects as long as they are
               civil, causes no harm, and nor is illegal by any means. As long as
-              we can communicate I think we will work fine together : )
+              we can communicate I think we will work fine together : &lpar;
+            </p>
+            <br />
+            <p className="text-xl leading-loose">
+              If you would like to have a commission done, you can do so through
+              my Ko-Fi link below. <br />
+              <a
+                href="https://ko-fi.com/M4M026ALH"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <Image
+                  height={48}
+                  width={162}
+                  style={{ border: '0px' }}
+                  src="https://cdn.ko-fi.com/cdn/kofi5.png?v=3"
+                  alt="Buy Me a Coffee at ko-fi.com"
+                />
+              </a>
             </p>
           </div>
         </div>
